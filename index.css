@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    background-color: #ddd; margin: 3rem;
+
+}
+#container {
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    text-align: center;
+}
+#container:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding: 5px;
+}
+#nomeDoPersonagem:focus{
+    outline: none;
+    border: 1px solid rgb(132, 0, 255);
+    border-radius: 25px;
+    transition-duration: 0.60s;
+    transition-delay: 0.10s;
+}
+#btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#txtwr{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 3px solid rgb(132, 0, 255);
+}
